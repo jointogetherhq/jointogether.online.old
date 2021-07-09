@@ -14,11 +14,6 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-h1, h2, h3, h4 {
-  /* font-weight: bold; */
-  /* text-transform: uppercase; */
-}
-
 h1 {
     font-size: 3em;
     color: #EE0000;
@@ -136,6 +131,10 @@ footer {
   margin-top: 2rem;
   width: 100%;
   background-color: #c80000;
+  color: white;
+}
+
+footer a {
   color: white;
 }
 
