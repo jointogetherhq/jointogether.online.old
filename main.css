@@ -13,7 +13,9 @@ html, body {
 body {
   font-family: sans-serif;
 }
-
+p {
+  display: block;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -152,16 +154,24 @@ header {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
   font-size: 0.8rem;
-  padding: 20px 0px;
+  padding: 20px 10px;
   margin-top: 2rem;
   width: 100%;
   background-color: #c80000;
   color: white;
 }
-
 footer a {
   color: white;
+}
+footer .company-info {
+  max-width: 400px;
+  margin-bottom:  1rem;
 }
 
 dt {
@@ -185,5 +195,9 @@ dd {
     padding: 0px 20px;
     min-width: 350px;
     max-width: 600px;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
