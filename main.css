@@ -11,6 +11,10 @@ html, body {
 }
 
 body {
+  font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -160,6 +164,13 @@ footer a {
   color: white;
 }
 
+#rights thead tr {
+  line-height: 2rem;
+}
+
+#rights th {
+  font-family: 'Nunito Sans', sans-serif;
+}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -175,5 +186,4 @@ footer a {
     min-width: 350px;
     max-width: 600px;
   }
-
 }
