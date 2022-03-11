@@ -164,12 +164,12 @@ footer a {
   color: white;
 }
 
-#rights thead tr {
-  line-height: 2rem;
-}
-
-#rights th {
+dt {
   font-family: 'Nunito Sans', sans-serif;
+  line-height:  1.2rem;
+}
+dd {
+  margin-bottom: 1rem;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
