@@ -68,6 +68,16 @@ th {
   text-align: left;
 }
 
+ol.legal {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+ol.legal li {
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
 .width-30 {
   width: 30%;
 }
